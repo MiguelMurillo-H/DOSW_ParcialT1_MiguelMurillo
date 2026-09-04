@@ -66,3 +66,26 @@ El Sistema TutoECI debe tener:
 | **Flujo principal** | 1. La solicitud es creada por el estudiante y validada mediante enlace <br>2. El sistema NotifyMe recibe la confirmación <br>3. NotifyMe envía el mensaje de confirmación al estudiante |
 | **Poscondiciones** | *El estudiante recibe en su correo un mensaje de confirmacion, con fecha y hora de la tutoría adignada.* |
 
+## 3. Planeación del Sistema en Jira
+
+### 3.1 Desglose de trabajo: Épicas, Historias de Usuario y Tareas
+
+La implementación de los requerimientos identificados de TutoECI se desglosa de la siguiente manera:
+
+#### 3.1.1. Épica:
+* **SCRUM-1:** Recomendación de Tutor al estudiante solicitante
+![Épica en Jira](DOSW-ParcialT1/docs/images/jira_epic.png)
+
+#### 3.1.2. Historias de usuario:
+* **SCRUM-2:** Historioa de usuario: solicitar una tutoria indicando preferencia de tutor.
+![Historia de Usuario Obligatoria](DOSW-ParcialT1/docs/images/user_story.png)
+
+#### 3.1.3. Tareas:
+* **SCRUM-3:** Integración a sistemas externos como NotifyMe
+* **SCRUM-4:** HashMap de todos los tutores registrados
+* **SCRUM-5:** Interfaz de Usuario con los colores representativos definidos en los requerimientos
+* **SCRUM-6:** Lógica de selección de tutor basado en la preferencia del solicitante
+
+![Tareas en Jira](DOSW-ParcialT1/docs/images/jira_tasks.png)
+
+### 3.2 Link del espacio en Jira: https://doswlab4buitragomurillorubiano.atlassian.net/jira/software/projects/PM/boards/34/backlog?atlOrigin=eyJpIjoiMjI1YTk4YmI1ZGFlNDVjNGE2YTVkOGYyMTcxZmNlMGYiLCJwIjoiaiJ9
