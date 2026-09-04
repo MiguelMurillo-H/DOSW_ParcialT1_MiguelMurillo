@@ -89,3 +89,10 @@ La implementación de los requerimientos identificados de TutoECI se desglosa de
 ![Tareas en Jira](DOSW-ParcialT1/docs/images/jira_tasks.png)
 
 ### 3.2 Link del espacio en Jira: https://doswlab4buitragomurillorubiano.atlassian.net/jira/software/projects/PM/boards/34/backlog?atlOrigin=eyJpIjoiMjI1YTk4YmI1ZGFlNDVjNGE2YTVkOGYyMTcxZmNlMGYiLCJwIjoiaiJ9
+
+## 4. Patrones de Diseño
+
+| Patrón | Tipo | Justificación |
+|--------|------|---------------|
+| *1. Chain of Responsability* | *De Comportamiento* | *este patrón se puede usar para la lógica de recomendación de tutores, ya que dependiendo de la preferencia ingresada por el usuario y la disponibilidad de tutores al momento de hacer la reserva, chain of responsability es útil para saber en qué momento decidir si el tutor es adecuado para el solicitante o no* |
+| *2. Factory Method* | *Creacional* | *Debido a que los tutores se clasifican en profesor o estudiante de posgrado, cada uno de estos tiene condiciones diferentes para la reserva, tales como el tiempo o el tema de la tutoría; este patrón nos sirve para crear diferentes tipos de "algo", en este caso tutores, pero que se crean de forma similar* | 
